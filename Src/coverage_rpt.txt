@@ -1,0 +1,2195 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /ALSU_top/ALSUif
+=== Design Unit: work.ALSU_if
+=================================================================================
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         80        80         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /ALSU_top/ALSUif --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                            A[2-0]           1           1      100.00 
+                                            B[2-0]           1           1      100.00 
+                                          bypass_A           1           1      100.00 
+                                          bypass_B           1           1      100.00 
+                                               cin           1           1      100.00 
+                                               clk           1           1      100.00 
+                                         direction           1           1      100.00 
+                                        leds[15-0]           1           1      100.00 
+                                       opcode[2-0]           1           1      100.00 
+                                          out[5-0]           1           1      100.00 
+                                          red_op_A           1           1      100.00 
+                                          red_op_B           1           1      100.00 
+                                               rst           1           1      100.00 
+                                         serial_in           1           1      100.00 
+
+Total Node Count     =         40 
+Toggled Node Count   =         40 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (80 of 80 bins)
+
+=================================================================================
+=== Instance: /ALSU_top/ALSU_DUT/ALSU_assertions_inst
+=== Design Unit: work.ALSU_assertions
+=================================================================================
+
+Assertion Coverage:
+    Assertions                      15        15         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/rst_p_assertion
+                     ALSU_assertions.sv(104)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/bypass_A_p_assertion
+                     ALSU_assertions.sv(105)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/bypass_B_p_assertion
+                     ALSU_assertions.sv(106)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/red_or_A_p_assertion
+                     ALSU_assertions.sv(107)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/red_or_B_p_assertion
+                     ALSU_assertions.sv(108)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/or_p_assertion
+                     ALSU_assertions.sv(109)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/red_xor_A_p_assertion
+                     ALSU_assertions.sv(110)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/red_xor_B_p_assertion
+                     ALSU_assertions.sv(111)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/xor_p_assertion
+                     ALSU_assertions.sv(112)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/Add_p_assertion
+                     ALSU_assertions.sv(113)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/mul_p_assertion
+                     ALSU_assertions.sv(114)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/shift_left_p_assertion
+                     ALSU_assertions.sv(115)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/shift_right_p_assertion
+                     ALSU_assertions.sv(116)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/rotate_left_p_assertion
+                     ALSU_assertions.sv(117)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/rotate_right_p_assertion
+                     ALSU_assertions.sv(118)            0          1
+
+Directive Coverage:
+    Directives                      15        15         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/rst_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(120)
+                                                                               485 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/bypass_A_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(121)
+                                                                               844 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/bypass_B_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(122)
+                                                                               670 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/red_or_A_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(123)
+                                                                                56 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/red_or_B_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(124)
+                                                                                17 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/or_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(125)
+                                                                               143 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/red_xor_A_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(126)
+                                                                                57 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/red_xor_B_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(127)
+                                                                                23 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/xor_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(128)
+                                                                               177 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/Add_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(129)
+                                                                                65 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/mul_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(130)
+                                                                                61 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/shift_left_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(131)
+                                                                                72 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/shift_right_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(132)
+                                                                               109 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/rotate_left_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(133)
+                                                                                98 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/rotate_right_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(134)
+                                                                                94 Covered   
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /ALSU_top/ALSU_DUT/ALSU_assertions_inst --
+
+  File ALSU_assertions.sv
+----------------Focused Expression View-----------------
+Line       4 Item    1  ((ALSUif.red_op_A | ALSUif.red_op_B) & (ALSUif.opcode[1] | ALSUif.opcode[2]))
+Expression totals: 4 of 4 input terms covered = 100.00%
+
+        Input Term   Covered  Reason for no coverage   Hint
+       -----------  --------  -----------------------  --------------
+   ALSUif.red_op_A         Y
+   ALSUif.red_op_B         Y
+  ALSUif.opcode[1]         Y
+  ALSUif.opcode[2]         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  ALSUif.red_op_A_0     ((ALSUif.opcode[1] | ALSUif.opcode[2]) && ~ALSUif.red_op_B)
+  Row   2:          1  ALSUif.red_op_A_1     ((ALSUif.opcode[1] | ALSUif.opcode[2]) && ~ALSUif.red_op_B)
+  Row   3:          1  ALSUif.red_op_B_0     ((ALSUif.opcode[1] | ALSUif.opcode[2]) && ~ALSUif.red_op_A)
+  Row   4:          1  ALSUif.red_op_B_1     ((ALSUif.opcode[1] | ALSUif.opcode[2]) && ~ALSUif.red_op_A)
+  Row   5:          1  ALSUif.opcode[1]_0    ((ALSUif.red_op_A | ALSUif.red_op_B) && ~ALSUif.opcode[2])
+  Row   6:          1  ALSUif.opcode[1]_1    ((ALSUif.red_op_A | ALSUif.red_op_B) && ~ALSUif.opcode[2])
+  Row   7:          1  ALSUif.opcode[2]_0    ((ALSUif.red_op_A | ALSUif.red_op_B) && ~ALSUif.opcode[1])
+  Row   8:          1  ALSUif.opcode[2]_1    ((ALSUif.red_op_A | ALSUif.red_op_B) && ~ALSUif.opcode[1])
+
+----------------Focused Expression View-----------------
+Line       5 Item    1  (ALSUif.opcode[1] & ALSUif.opcode[2])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+        Input Term   Covered  Reason for no coverage   Hint
+       -----------  --------  -----------------------  --------------
+  ALSUif.opcode[1]         Y
+  ALSUif.opcode[2]         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  ALSUif.opcode[1]_0    ALSUif.opcode[2]              
+  Row   2:          1  ALSUif.opcode[1]_1    ALSUif.opcode[2]              
+  Row   3:          1  ALSUif.opcode[2]_0    ALSUif.opcode[1]              
+  Row   4:          1  ALSUif.opcode[2]_1    ALSUif.opcode[1]              
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /ALSU_top/ALSU_DUT/ALSU_assertions_inst --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_assertions.sv
+    1                                                module ALSU_assertions(ALSU_if.DUT ALSUif);
+    2                                                
+    3                                                logic invalid_red_op, invalid_opcode, invalid;
+    4               1                       9388     assign invalid_red_op = (ALSUif.red_op_A | ALSUif.red_op_B) & (ALSUif.opcode[1] | ALSUif.opcode[2]);
+    5               1                       8615     assign invalid_opcode = ALSUif.opcode[1] & ALSUif.opcode[2];
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                          6         4         2    66.66%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /ALSU_top/ALSU_DUT/ALSU_assertions_inst --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                           invalid           0           0        0.00 
+                                    invalid_opcode           1           1      100.00 
+                                    invalid_red_op           1           1      100.00 
+
+Total Node Count     =          3 
+Toggled Node Count   =          2 
+Untoggled Node Count =          1 
+
+Toggle Coverage      =      66.66% (4 of 6 bins)
+
+=================================================================================
+=== Instance: /ALSU_top/ALSU_DUT
+=== Design Unit: work.ALSU
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        25        25         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /ALSU_top/ALSU_DUT
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU.sv
+------------------------------------IF Branch------------------------------------
+    39                                     10465     Count coming in to IF
+    39              1                        949       if(rst) begin
+    50              1                       9516       end else begin
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    66                                     10465     Count coming in to IF
+    66              1                        949       if(rst) begin
+    68              1                       9516       end else begin
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    69                                      9516     Count coming in to IF
+    69              1                       3015           if (invalid)
+    71              1                       6501           else
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    78                                     10443     Count coming in to IF
+    78              1                        928       if(rst) begin
+    81              1                       9515       else begin  //Make bypass priorities comes before the invalid operations
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    82                                      9515     Count coming in to IF
+    82              1                        103         if (bypass_A_reg && bypass_B_reg)
+    84              1                        783         else if (bypass_A_reg)
+    86              1                        856         else if (bypass_B_reg)
+    88              1                       3014         else if (invalid) 
+    90              1                       4759         else begin
+Branch totals: 5 hits of 5 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    93                                      1483     Count coming in to IF
+    93              1                        139                 if (red_op_A_reg && red_op_B_reg)
+    95              1                         96                 else if (red_op_A_reg) 
+    97              1                         96                 else if (red_op_B_reg)
+    99              1                       1152                 else 
+Branch totals: 4 hits of 4 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    103                                     1048     Count coming in to IF
+    103             1                        137                 if (red_op_A_reg && red_op_B_reg)
+    105             1                        106                 else if (red_op_A_reg) 
+    107             1                         95                 else if (red_op_B_reg)
+    109             1                        710                 else 
+Branch totals: 4 hits of 4 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    118                                      828     Count coming in to IF
+    118             1                        394                 if (direction_reg)
+    120             1                        434                 else
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    124                                      864     Count coming in to IF
+    124             1                        436                 if (direction_reg)
+    126             1                        428                 else
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       6         6         0   100.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /ALSU_top/ALSU_DUT --
+
+  File ALSU.sv
+----------------Focused Condition View-------------------
+Line       82 Item    1  (bypass_A_reg && bypass_B_reg)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+    Input Term   Covered  Reason for no coverage   Hint
+   -----------  --------  -----------------------  --------------
+  bypass_A_reg         Y
+  bypass_B_reg         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  bypass_A_reg_0        -                             
+  Row   2:          1  bypass_A_reg_1        bypass_B_reg                  
+  Row   3:          1  bypass_B_reg_0        bypass_A_reg                  
+  Row   4:          1  bypass_B_reg_1        bypass_A_reg                  
+
+----------------Focused Condition View-------------------
+Line       93 Item    1  (red_op_A_reg && red_op_B_reg)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+    Input Term   Covered  Reason for no coverage   Hint
+   -----------  --------  -----------------------  --------------
+  red_op_A_reg         Y
+  red_op_B_reg         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  red_op_A_reg_0        -                             
+  Row   2:          1  red_op_A_reg_1        red_op_B_reg                  
+  Row   3:          1  red_op_B_reg_0        red_op_A_reg                  
+  Row   4:          1  red_op_B_reg_1        red_op_A_reg                  
+
+----------------Focused Condition View-------------------
+Line       103 Item    1  (red_op_A_reg && red_op_B_reg)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+    Input Term   Covered  Reason for no coverage   Hint
+   -----------  --------  -----------------------  --------------
+  red_op_A_reg         Y
+  red_op_B_reg         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  red_op_A_reg_0        -                             
+  Row   2:          1  red_op_A_reg_1        red_op_B_reg                  
+  Row   3:          1  red_op_B_reg_0        red_op_A_reg                  
+  Row   4:          1  red_op_B_reg_1        red_op_A_reg                  
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /ALSU_top/ALSU_DUT --
+
+  File ALSU.sv
+----------------Focused Expression View-----------------
+Line       33 Item    1  ((red_op_A_reg | red_op_B_reg) & (opcode_reg[1] | opcode_reg[2]))
+Expression totals: 4 of 4 input terms covered = 100.00%
+
+     Input Term   Covered  Reason for no coverage   Hint
+    -----------  --------  -----------------------  --------------
+   red_op_A_reg         Y
+   red_op_B_reg         Y
+  opcode_reg[1]         Y
+  opcode_reg[2]         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  red_op_A_reg_0        ((opcode_reg[1] | opcode_reg[2]) && ~red_op_B_reg)
+  Row   2:          1  red_op_A_reg_1        ((opcode_reg[1] | opcode_reg[2]) && ~red_op_B_reg)
+  Row   3:          1  red_op_B_reg_0        ((opcode_reg[1] | opcode_reg[2]) && ~red_op_A_reg)
+  Row   4:          1  red_op_B_reg_1        ((opcode_reg[1] | opcode_reg[2]) && ~red_op_A_reg)
+  Row   5:          1  opcode_reg[1]_0       ((red_op_A_reg | red_op_B_reg) && ~opcode_reg[2])
+  Row   6:          1  opcode_reg[1]_1       ((red_op_A_reg | red_op_B_reg) && ~opcode_reg[2])
+  Row   7:          1  opcode_reg[2]_0       ((red_op_A_reg | red_op_B_reg) && ~opcode_reg[1])
+  Row   8:          1  opcode_reg[2]_1       ((red_op_A_reg | red_op_B_reg) && ~opcode_reg[1])
+
+----------------Focused Expression View-----------------
+Line       34 Item    1  (opcode_reg[1] & opcode_reg[2])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+     Input Term   Covered  Reason for no coverage   Hint
+    -----------  --------  -----------------------  --------------
+  opcode_reg[1]         Y
+  opcode_reg[2]         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  opcode_reg[1]_0       opcode_reg[2]                 
+  Row   2:          1  opcode_reg[1]_1       opcode_reg[2]                 
+  Row   3:          1  opcode_reg[2]_0       opcode_reg[1]                 
+  Row   4:          1  opcode_reg[2]_1       opcode_reg[1]                 
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      59        59         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /ALSU_top/ALSU_DUT --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU.sv
+    1                                                module ALSU(ALSU_if.DUT ALSUif);
+    2                                                parameter INPUT_PRIORITY = "A";
+    3                                                parameter FULL_ADDER = "ON";
+    4                                                
+    5                                                logic clk,rst, cin, red_op_A, red_op_B, bypass_A, bypass_B, direction, serial_in;
+    6                                                logic [2:0] opcode;
+    7                                                logic signed [2:0] A, B;
+    8                                                logic  [15:0] leds;
+    9                                                logic signed [5:0] out;
+    10                                               
+    11              1                       8703     assign A=ALSUif.A ;
+    12              1                       8601     assign B=ALSUif.B ;
+    13              1                       4922     assign cin=ALSUif.cin ;
+    14              1                       4966     assign serial_in=ALSUif.serial_in ;
+    15              1                       4269     assign red_op_A=ALSUif.red_op_A;
+    16              1                       4302     assign red_op_B=ALSUif.red_op_B ;
+    17              1                       8615     assign opcode=ALSUif.opcode ;
+    18              1                       1783     assign bypass_A=ALSUif.bypass_A;
+    19              1                       1882     assign bypass_B=ALSUif.bypass_B ;
+    20              1                      20004     assign clk=ALSUif.clk;
+    21              1                        929     assign rst=ALSUif.rst;
+    22              1                       4936     assign direction=ALSUif.direction;
+    23                                               assign ALSUif.out=out;
+    24                                               assign ALSUif.leds=leds;
+    25                                               
+    26                                               logic  cin_reg,red_op_A_reg, red_op_B_reg, bypass_A_reg, bypass_B_reg, direction_reg, serial_in_reg;
+    27                                               logic [2:0] opcode_reg;
+    28                                               logic signed [2:0] A_reg, B_reg;
+    29                                               logic invalid_red_op, invalid_opcode, invalid;
+    30                                               
+    31                                               //Invalid handling 
+    32                                               //Make leds adjustment to not blink if bypass (A or B) is high ignoring red_op and opcode 
+    33              1                       9366     assign invalid_red_op = (red_op_A_reg | red_op_B_reg) & (opcode_reg[1] | opcode_reg[2]);
+    34              1                       8613     assign invalid_opcode = opcode_reg[1] & opcode_reg[2];
+    35                                               assign invalid = ((bypass_A_reg||bypass_B_reg))?0:(invalid_red_op | invalid_opcode); 
+    36                                               
+    37                                               //Registering input signals
+    38              1                      10465     always @(posedge clk or posedge rst) begin
+    39                                                 if(rst) begin
+    40              1                        949          cin_reg <= 0;
+    41              1                        949          red_op_B_reg <= 0;
+    42              1                        949          red_op_A_reg <= 0;
+    43              1                        949          bypass_B_reg <= 0;
+    44              1                        949          bypass_A_reg <= 0;
+    45              1                        949          direction_reg <= 0;
+    46              1                        949          serial_in_reg <= 0;
+    47              1                        949          opcode_reg <= 0;
+    48              1                        949          A_reg <= 0;
+    49              1                        949          B_reg <= 0;
+    50                                                 end else begin
+    51              1                       9516          cin_reg <= cin;
+    52              1                       9516          red_op_B_reg <= red_op_B;
+    53              1                       9516          red_op_A_reg <= red_op_A;
+    54              1                       9516          bypass_B_reg <= bypass_B;
+    55              1                       9516          bypass_A_reg <= bypass_A;
+    56              1                       9516          direction_reg <= direction;
+    57              1                       9516          serial_in_reg <= serial_in;
+    58              1                       9516          opcode_reg <= opcode;
+    59              1                       9516          A_reg <= A;
+    60              1                       9516          B_reg <= B;
+    61                                                 end
+    62                                               end
+    63                                               
+    64                                               //leds output blinking 
+    65              1                      10465     always @(posedge clk or posedge rst) begin
+    66                                                 if(rst) begin
+    67              1                        949          leds <= 0;
+    68                                                 end else begin
+    69                                                     if (invalid)
+    70              1                       3015             leds <= ~leds;
+    71                                                     else
+    72              1                       6501             leds <= 0;
+    73                                                 end
+    74                                               end
+    75                                               
+    76                                               //ALSU output processing
+    77              1                      10443     always @(posedge clk or posedge rst) begin
+    78                                                 if(rst) begin
+    79              1                        928         out <= 0;
+    80                                                 end
+    81                                                 else begin  //Make bypass priorities comes before the invalid operations
+    82                                                   if (bypass_A_reg && bypass_B_reg)
+    83              1                        103           out <= (INPUT_PRIORITY == "A")? A_reg: B_reg;
+    84                                                   else if (bypass_A_reg)
+    85              1                        783           out <= A_reg;
+    86                                                   else if (bypass_B_reg)
+    87              1                        856           out <= B_reg;
+    88                                                   else if (invalid) 
+    89              1                       3014             out <= 0;
+    90                                                   else begin
+    91                                                       case (opcode_reg) //Adding The opcode_reg instead of opcode
+    92                                                         3'h0: begin  //BUG in design performing AND instead of OR
+    93                                                           if (red_op_A_reg && red_op_B_reg)
+    94              1                        139                   out = (INPUT_PRIORITY == "A")? |A_reg: |B_reg;
+    95                                                           else if (red_op_A_reg) 
+    96              1                         96                   out <= |A_reg;
+    97                                                           else if (red_op_B_reg)
+    98              1                         96                   out <= |B_reg;
+    99                                                           else 
+    100             1                       1152                   out <= A_reg | B_reg;
+    101                                                        end
+    102                                                        3'h1: begin //BUG in design performing OR instead of XOR
+    103                                                          if (red_op_A_reg && red_op_B_reg)
+    104             1                        137                   out <= (INPUT_PRIORITY == "A")? ^A_reg: ^B_reg;
+    105                                                          else if (red_op_A_reg) 
+    106             1                        106                   out <= ^A_reg;
+    107                                                          else if (red_op_B_reg)
+    108             1                         95                   out <= ^B_reg;
+    109                                                          else 
+    110             1                        710                   out <= A_reg ^ B_reg;
+    111                                                        end
+    112                                                        3'h2:begin  //Adding FULL_ADDER condition for carry in
+    113             1                        278                 if(FULL_ADDER) out <= A_reg + B_reg +cin_reg;
+    114                                                          else  out <= A_reg + B_reg;
+    115                                                        end
+    116             1                        258               3'h3: out <= A_reg * B_reg;
+    117                                                        3'h4: begin
+    118                                                          if (direction_reg)
+    119             1                        394                   out <= {out[4:0], serial_in_reg};
+    120                                                          else
+    121             1                        434                   out <= {serial_in_reg, out[5:1]};
+    122                                                        end
+    123                                                        3'h5: begin
+    124                                                          if (direction_reg)
+    125             1                        436                   out <= {out[4:0], out[5]};
+    126                                                          else
+    127             1                        428                   out <= {out[0], out[5:1]};
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        118       118         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /ALSU_top/ALSU_DUT --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                            A[2-0]           1           1      100.00 
+                                        A_reg[2-0]           1           1      100.00 
+                                            B[2-0]           1           1      100.00 
+                                        B_reg[2-0]           1           1      100.00 
+                                          bypass_A           1           1      100.00 
+                                      bypass_A_reg           1           1      100.00 
+                                          bypass_B           1           1      100.00 
+                                      bypass_B_reg           1           1      100.00 
+                                               cin           1           1      100.00 
+                                           cin_reg           1           1      100.00 
+                                               clk           1           1      100.00 
+                                         direction           1           1      100.00 
+                                     direction_reg           1           1      100.00 
+                                           invalid           1           1      100.00 
+                                    invalid_opcode           1           1      100.00 
+                                    invalid_red_op           1           1      100.00 
+                                        leds[15-0]           1           1      100.00 
+                                       opcode[2-0]           1           1      100.00 
+                                   opcode_reg[2-0]           1           1      100.00 
+                                          out[5-0]           1           1      100.00 
+                                          red_op_A           1           1      100.00 
+                                      red_op_A_reg           1           1      100.00 
+                                          red_op_B           1           1      100.00 
+                                      red_op_B_reg           1           1      100.00 
+                                               rst           1           1      100.00 
+                                         serial_in           1           1      100.00 
+                                     serial_in_reg           1           1      100.00 
+
+Total Node Count     =         59 
+Toggled Node Count   =         59 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (118 of 118 bins)
+
+=================================================================================
+=== Instance: /ALSU_top
+=== Design Unit: work.ALSU_top
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       6         6         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /ALSU_top --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_top.sv
+    5                                                module ALSU_top();
+    6                                                logic clk;
+    7                                                initial begin
+    8               1                          1         clk=0;
+    9               1                          1         forever begin
+    10              1                      20003             #1 clk=~clk;
+    10              2                      20002     
+    11                                                   end
+    12                                               end
+    13                                               ALSU_if ALSUif(clk);
+    14                                               ALSU ALSU_DUT(ALSUif);
+    15                                               bind ALSU_DUT ALSU_assertions ALSU_assertions_inst(ALSUif);
+    16                                               
+    17                                               initial begin
+    18              1                          1         uvm_config_db#(virtual ALSU_if)::set(null,"uvm_test_top","ALSU_IF",ALSUif);
+    19              1                          1         run_test("ALSU_test");
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                          2         2         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /ALSU_top --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                               clk           1           1      100.00 
+
+Total Node Count     =          1 
+Toggled Node Count   =          1 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (2 of 2 bins)
+
+=================================================================================
+=== Instance: /ALSU_sequenceitem_pkg
+=== Design Unit: work.ALSU_sequenceitem_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         2         8    20.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /ALSU_sequenceitem_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_sequenceitem_pkg.sv
+------------------------------------IF Branch------------------------------------
+    11                                   ***0***     Count coming in to IF
+    11              1                    ***0***     `uvm_object_utils(MySequenceItem)
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    11                                     10001     Count coming in to IF
+    11              2                    ***0***     `uvm_object_utils(MySequenceItem)
+                                           10001     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    11                                   ***0***     Count coming in to IF
+    11              3                    ***0***     `uvm_object_utils(MySequenceItem)
+    11              4                    ***0***     `uvm_object_utils(MySequenceItem)
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    11                                     10001     Count coming in to IF
+    11              5                    ***0***     `uvm_object_utils(MySequenceItem)
+                                           10001     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    11                                   ***0***     Count coming in to IF
+    11              6                    ***0***     `uvm_object_utils(MySequenceItem)
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         0         2     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /ALSU_sequenceitem_pkg --
+
+  File ALSU_sequenceitem_pkg.sv
+----------------Focused Condition View-------------------
+Line       11 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       11 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      13         3        10    23.07%
+
+================================Statement Details================================
+
+Statement Coverage for instance /ALSU_sequenceitem_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_sequenceitem_pkg.sv
+    1                                                package ALSU_sequenceitem_pkg;
+    2                                                import uvm_pkg::*;
+    3                                                `include "uvm_macros.svh"
+    4                                                
+    5                                                typedef enum {OR,XOR,ADD,MUL,SHIFT,ROTATE,INVALID_6,INVALID_7} opcode_e;
+    6                                                parameter MAX_POS = 3;
+    7                                                parameter ZERO=0;
+    8                                                parameter MAX_NEG = -4;
+    9                                                
+    10                                               class MySequenceItem extends uvm_sequence_item;
+    11              1                    ***0***     `uvm_object_utils(MySequenceItem)
+    11              2                    ***0***     
+    11              3                    ***0***     
+    11              4                    ***0***     
+    11              5                    ***0***     
+    11              6                      10001     
+    11              7                    ***0***     
+    11              8                    ***0***     
+    11              9                      10001     
+    11             10                    ***0***     
+    12                                               
+    13                                               //Signals Declarations
+    14                                               rand bit rst, cin, red_op_A, red_op_B, bypass_A, bypass_B, direction, serial_in;
+    15                                               rand opcode_e opcode;
+    16                                               rand opcode_e opcode_valid[6];
+    17                                               rand logic signed [2:0] A,B;
+    18                                               logic  [15:0] leds;
+    19                                               logic signed [5:0] out;
+    20                                               int i;
+    21                                               
+    22                                               //Constructor for the sequence item
+    23                                               function new(string name = "MySequenceItem");
+    24              1                      30005     super.new(name);
+    25                                               endfunction
+    26                                               
+    27                                               function string convert2string();
+    28              1                    ***0***         return $sformatf("rst=0b%0b,serial_in=0b%0b,direction=0b%0b,cin=0b%0b,bypassA=0b%0b,bypassB=0b%0b,\
+    29                                               redopA=0b%0b,redopB=0b%0b,opcode=0b%0b,A=0b%0b,B=0b%0b,out=0b%0b,leds=0b%0b", 
+    30                                                   rst, serial_in, direction, cin, bypass_A, bypass_B,
+    31                                                   red_op_A, red_op_B, opcode, A, B, out, leds);
+    32                                               endfunction
+    33                                               
+    34                                               function string convert2string_stimulus();
+    35              1                    ***0***         return $sformatf("rst=0b%0b,serial_in=0b%0b,direction=0b%0b,cin=0b%0b,bypassA=0b%0b,bypassB=0b%0b,\
+
+
+=================================================================================
+=== Instance: /ALSU_sequence_pkg
+=== Design Unit: work.ALSU_sequence_pkg
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/ALSU_sequence_pkg/ALSU_sequence/body/#ublk#37877255#28/immed__31
+                     ALSU_sequence_pkg.sv(31)           0          1
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         2         8    20.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /ALSU_sequence_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_sequence_pkg.sv
+------------------------------------IF Branch------------------------------------
+    8                                    ***0***     Count coming in to IF
+    8               1                    ***0***     `uvm_object_utils(ALSU_sequence);
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    8                                          1     Count coming in to IF
+    8               2                    ***0***     `uvm_object_utils(ALSU_sequence);
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    8                                    ***0***     Count coming in to IF
+    8               3                    ***0***     `uvm_object_utils(ALSU_sequence);
+    8               4                    ***0***     `uvm_object_utils(ALSU_sequence);
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    8                                          1     Count coming in to IF
+    8               5                    ***0***     `uvm_object_utils(ALSU_sequence);
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    8                                    ***0***     Count coming in to IF
+    8               6                    ***0***     `uvm_object_utils(ALSU_sequence);
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         0         2     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /ALSU_sequence_pkg --
+
+  File ALSU_sequence_pkg.sv
+----------------Focused Condition View-------------------
+Line       8 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       8 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      29        21         8    72.41%
+
+================================Statement Details================================
+
+Statement Coverage for instance /ALSU_sequence_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_sequence_pkg.sv
+    1                                                package ALSU_sequence_pkg;
+    2                                                import ALSU_sequenceitem_pkg::*;
+    3                                                import uvm_pkg::*;
+    4                                                `include "uvm_macros.svh"
+    5                                                
+    6                                                class ALSU_sequence extends uvm_sequence #(MySequenceItem);
+    7                                                
+    8               1                    ***0***     `uvm_object_utils(ALSU_sequence);
+    8               2                    ***0***     
+    8               3                    ***0***     
+    8               4                    ***0***     
+    8               5                    ***0***     
+    8               6                          1     
+    8               7                    ***0***     
+    8               8                    ***0***     
+    8               9                          1     
+    8              10                    ***0***     
+    9                                                MySequenceItem item;
+    10                                               
+    11                                               //Constructor for the sequence
+    12                                               function new(string name = "MySequence");
+    13              1                          1         super.new(name);    
+    14                                               endfunction
+    15                                               
+    16                                               //Main task for the sequence
+    17                                               virtual task body();
+    18                                               
+    19                                                   //Reset initialization
+    20              1                          1         item = MySequenceItem::type_id::create("item"); //Create a sequence item
+    21              1                          1         start_item(item);
+    22              1                          1         item.rst=1; item.cin=0; item.red_op_A=0; item.red_op_B=0; item.bypass_A=0; item.bypass_B=0;
+    22              2                          1     
+    22              3                          1     
+    22              4                          1     
+    22              5                          1     
+    22              6                          1     
+    23              1                          1         item.direction=0; item.serial_in=0; item.A=0; item.B=0;
+    23              2                          1     
+    23              3                          1     
+    23              4                          1     
+    24              1                          1         item.opcode = opcode_e'(0);
+    25              1                          1         finish_item(item);
+    26                                                   
+    27                                               
+    28              1                      10000         repeat(10000) begin
+    29              1                      10000             item = MySequenceItem::type_id::create("item"); //Create a sequence item
+    30              1                      10000             start_item(item);
+    31                                                       assert (item.randomize());
+    32              1                      10000             finish_item(item);
+
+
+=================================================================================
+=== Instance: /ALSU_coverage_pkg
+=== Design Unit: work.ALSU_coverage_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /ALSU_coverage_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_coverage_pkg.sv
+------------------------------------IF Branch------------------------------------
+    131                                    10001     Count coming in to IF
+    131             1                       2315             if(item_cov.rst||item_cov.bypass_A||item_cov.bypass_B)
+    133             1                       7686             else begin
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       3         3         0   100.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /ALSU_coverage_pkg --
+
+  File ALSU_coverage_pkg.sv
+----------------Focused Condition View-------------------
+Line       131 Item    1  (this.item_cov.rst || this.item_cov.bypass_A || this.item_cov.bypass_B)
+Condition totals: 3 of 3 input terms covered = 100.00%
+
+              Input Term   Covered  Reason for no coverage   Hint
+             -----------  --------  -----------------------  --------------
+       this.item_cov.rst         Y
+  this.item_cov.bypass_A         Y
+  this.item_cov.bypass_B         Y
+
+     Rows:       Hits  FEC Target                Non-masking condition(s)      
+ ---------  ---------  --------------------      -------------------------     
+  Row   1:          1  this.item_cov.rst_0       ~(this.item_cov.bypass_A || this.item_cov.bypass_B)
+  Row   2:          1  this.item_cov.rst_1       -                             
+  Row   3:          1  this.item_cov.bypass_A_0  (~this.item_cov.rst && ~this.item_cov.bypass_B)
+  Row   4:          1  this.item_cov.bypass_A_1  ~this.item_cov.rst            
+  Row   5:          1  this.item_cov.bypass_B_0  (~this.item_cov.rst && ~this.item_cov.bypass_A)
+  Row   6:          1  this.item_cov.bypass_B_1  (~this.item_cov.rst && ~this.item_cov.bypass_A)
+
+
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses         17        na        na        na
+            Covergroup Bins         40        40         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /ALSU_coverage_pkg/ALSU_coverage/cov_gp         100.00%        100          -    Covered              
+    covered/total bins:                                    40         40          -                      
+    missing/total bins:                                     0         40          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint A_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint B_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint ALU_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint A_extremes                               0.00%        100          -    ZERO                 
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint B_extremes                               0.00%        100          -    ZERO                 
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cross_cin                                0.00%        100          -    ZERO                 
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cross_serial_in                          0.00%        100          -    ZERO                 
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cross_redA                               0.00%        100          -    ZERO                 
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cross_redB                               0.00%        100          -    ZERO                 
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cross_direction                          0.00%        100          -    ZERO                 
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross A_B_ADD_MUL                                 100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross CIN_ADD_cross                               100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross shifting_cross                              100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross shifting_rotating_cross                     100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross OR_XOR_redA_cross                           100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross OR_XOR_redB_cross                           100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross INVALID_red_cross                           100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/ALSU_coverage_pkg::ALSU_coverage::cov_gp  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    40         40          -                      
+    missing/total bins:                                     0         40          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint A_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin A_data_0                                     1321          1          -    Covered              
+        bin A_data_max                                   1227          1          -    Covered              
+        bin A_data_min                                   1250          1          -    Covered              
+        bin A_data_walkingones[-4]                        453          1          -    Covered              
+        bin A_data_walkingones[1]                         223          1          -    Covered              
+        bin A_data_walkingones[2]                         231          1          -    Covered              
+        default bin A_data_default                       2336                     -    Occurred             
+    Coverpoint B_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin B_data_0                                     1586          1          -    Covered              
+        bin B_data_max                                   1124          1          -    Covered              
+        bin B_data_min                                   1187          1          -    Covered              
+        bin B_data_walkingones[-4]                        222          1          -    Covered              
+        bin B_data_walkingones[1]                         139          1          -    Covered              
+        bin B_data_walkingones[2]                         104          1          -    Covered              
+        default bin B_data_default                       2304                     -    Occurred             
+    Coverpoint ALU_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Bins_shift[SHIFT]                            1064          1          -    Covered              
+        bin Bins_shift[ROTATE]                           1095          1          -    Covered              
+        bin Bins_arith[ADD]                              1111          1          -    Covered              
+        bin Bins_arith[MUL]                              1140          1          -    Covered              
+        bin Bins_bitwise[OR]                             1066          1          -    Covered              
+        bin Bins_bitwise[XOR]                            1107          1          -    Covered              
+        bin Bins_invalid                                 1103          1          -    Covered              
+        bin Bins_trans                                    607          1          -    Covered              
+    Coverpoint A_extremes [1]                         100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin A_extremes_VALUES                            3798          1          -    Covered              
+    Coverpoint B_extremes [1]                         100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin B_extremes_VALUES                            3897          1          -    Covered              
+    Coverpoint cross_cin [1]                          100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin C_in                                         7686          1          -    Covered              
+    Coverpoint cross_serial_in [1]                    100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin serialin                                     7686          1          -    Covered              
+    Coverpoint cross_redA [1]                         100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin redA                                         7686          1          -    Covered              
+    Coverpoint cross_redB [1]                         100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin redB                                         7686          1          -    Covered              
+    Coverpoint cross_direction [1]                    100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin crossdir                                     7686          1          -    Covered              
+    Cross A_B_ADD_MUL                                 100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin Extreme_Add_mul                          1252          1          -    Covered              
+            bin <A_extremes_VALUES,B_extremes_VALUES,Bins_trans> 
+                                                          165          1          -    Covered              
+            bin <A_extremes_VALUES,B_extremes_VALUES,Bins_invalid> 
+                                                          156          1          -    Covered              
+            bin <A_extremes_VALUES,B_extremes_VALUES,Bins_bitwise[XOR]> 
+                                                          193          1          -    Covered              
+            bin <A_extremes_VALUES,B_extremes_VALUES,Bins_bitwise[OR]> 
+                                                          164          1          -    Covered              
+            bin <A_extremes_VALUES,B_extremes_VALUES,Bins_shift[ROTATE]> 
+                                                          160          1          -    Covered              
+            bin <A_extremes_VALUES,B_extremes_VALUES,Bins_shift[SHIFT]> 
+                                                          147          1          -    Covered              
+    Cross CIN_ADD_cross                               100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin CIN_ADD                                  1558          1          -    Covered              
+    Cross shifting_cross                              100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin serial_in_shift                          1522          1          -    Covered              
+    Cross shifting_rotating_cross                     100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin serial_in_shift                          2159          1          -    Covered              
+    Cross OR_XOR_redA_cross                           100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin OR_XOR_redA                               226          1          -    Covered              
+    Cross OR_XOR_redB_cross                           100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin OR_XOR_redB                                70          1          -    Covered              
+    Cross INVALID_red_cross                           100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin invalid_red                              5653          1          -    Covered              
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      16        14         2    87.50%
+
+================================Statement Details================================
+
+Statement Coverage for instance /ALSU_coverage_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_coverage_pkg.sv
+    1                                                package ALSU_coverage_pkg;
+    2                                                import ALSU_sequenceitem_pkg::*;
+    3                                                import uvm_pkg::*;
+    4                                                `include "uvm_macros.svh"
+    5                                                
+    6                                                class ALSU_coverage extends uvm_component;
+    7               1                    ***0***     `uvm_component_utils(ALSU_coverage);
+    7               2                    ***0***     
+    7               3                          2     
+    8                                                
+    9                                                uvm_analysis_export #(MySequenceItem) cov_export;
+    10                                               uvm_tlm_analysis_fifo #(MySequenceItem) cov_fifo;
+    11                                               MySequenceItem item_cov;
+    12                                               
+    13                                               //Covergroups
+    14                                               covergroup cov_gp();
+    15                                               A_cp: coverpoint item_cov.A
+    16                                               {
+    17                                                       bins A_data_0 = {ZERO};
+    18                                                       bins A_data_max={MAX_POS};
+    19                                                       bins A_data_min={MAX_NEG};
+    20                                                       bins A_data_default=default;
+    21                                                       bins A_data_walkingones[] ={1,2,-4} iff(item_cov.red_op_A) ;
+    22                                               }
+    23                                               B_cp: coverpoint item_cov.B
+    24                                               {
+    25                                                       bins B_data_0 = {ZERO};
+    26                                                       bins B_data_max={MAX_POS};
+    27                                                       bins B_data_min={MAX_NEG};
+    28                                                       bins B_data_default=default;
+    29                                                       bins B_data_walkingones[]={1,2,-4} iff((!item_cov.red_op_A) && (item_cov.red_op_B) );
+    30                                               }
+    31                                               ALU_cp: coverpoint item_cov.opcode
+    32                                               {
+    33                                                       bins Bins_shift[] = {SHIFT,ROTATE};
+    34                                                       bins Bins_arith[] = {ADD,MUL};
+    35                                                       bins Bins_bitwise[] = {OR,XOR};
+    36                                                       bins Bins_invalid = {INVALID_6,INVALID_7};
+    37                                                       bins Bins_trans = (0=>1),(1=>2),(3=>4),(4=>5);
+    38                                               }
+    39                                               
+    40                                               //Cover points needed for the cross coverage
+    41                                               A_extremes: coverpoint item_cov.A
+    42                                               {
+    43                                                       bins A_extremes_VALUES={MAX_NEG,ZERO,MAX_POS};
+    44                                                       option.weight=0;
+    45                                               }
+    46                                               B_extremes: coverpoint item_cov.B
+    47                                               {
+    48                                                       bins B_extremes_VALUES={MAX_NEG,ZERO,MAX_POS};
+    49                                                       option.weight=0;
+    50                                               }
+    51                                               cross_cin:coverpoint item_cov.cin {
+    52                                                       bins C_in={0,1};
+    53                                                       option.weight=0;
+    54                                                       }
+    55                                               cross_serial_in:coverpoint item_cov.serial_in {
+    56                                                       bins serialin={0,1};
+    57                                                       option.weight=0;
+    58                                                       }
+    59                                               cross_redA:coverpoint item_cov.red_op_A{
+    60                                                       bins redA={0,1};
+    61                                                       option.weight=0;
+    62                                                       }
+    63                                               cross_redB:coverpoint item_cov.red_op_B{
+    64                                                       bins redB={0,1};
+    65                                                       option.weight=0;
+    66                                                       }
+    67                                               cross_direction:coverpoint item_cov.direction{
+    68                                                       bins crossdir ={0,1};
+    69                                                       option.weight=0;
+    70                                                       }
+    71                                               
+    72                                               //Cross coverage
+    73                                               A_B_ADD_MUL: cross A_extremes, B_extremes ,ALU_cp
+    74                                               {
+    75                                                       bins Extreme_Add_mul = binsof (A_extremes) && binsof (B_extremes) && binsof (ALU_cp.Bins_arith);
+    76                                               }
+    77                                               
+    78                                               CIN_ADD_cross: cross cross_cin, ALU_cp{
+    79                                               
+    80                                                       bins CIN_ADD = binsof(ALU_cp) intersect {ADD} && binsof(cross_cin);
+    81                                                       option.cross_auto_bin_max = 0;
+    82                                               }
+    83                                               shifting_cross: cross ALU_cp,cross_serial_in
+    84                                               {
+    85                                                       bins serial_in_shift = binsof(ALU_cp) intersect {SHIFT} && binsof(cross_serial_in);
+    86                                                       option.cross_auto_bin_max = 0;
+    87                                               }
+    88                                               shifting_rotating_cross: cross ALU_cp,cross_direction
+    89                                               {
+    90                                                       bins serial_in_shift = binsof(ALU_cp.Bins_shift)  && binsof(cross_direction);
+    91                                                       option.cross_auto_bin_max = 0;
+    92                                               }
+    93                                               OR_XOR_redA_cross: cross ALU_cp, cross_redA, A_cp,B_cp
+    94                                               {
+    95                                                       bins OR_XOR_redA = binsof(ALU_cp.Bins_bitwise) && binsof(cross_redA) intersect{1} && binsof(A_cp.A_data_walkingones) && binsof(B_cp) intersect {ZERO};
+    96                                                       option.cross_auto_bin_max = 0;
+    97                                               }
+    98                                               OR_XOR_redB_cross: cross ALU_cp, cross_redB, A_cp,B_cp
+    99                                               {
+    100                                                      bins OR_XOR_redB = binsof(ALU_cp.Bins_bitwise) && binsof(cross_redB) intersect {1} && binsof(B_cp.B_data_walkingones)  && binsof(A_cp) intersect {ZERO};
+    101                                                      option.cross_auto_bin_max = 0;
+    102                                              }
+    103                                              INVALID_red_cross: cross ALU_cp,cross_redA, cross_redB
+    104                                              {
+    105                                                      bins invalid_red = !binsof(ALU_cp.Bins_bitwise)  && (binsof(cross_redB) intersect {1} || binsof(cross_redA) intersect{1});
+    106                                                      option.cross_auto_bin_max = 0;
+    107                                              }
+    108                                              endgroup
+    109                                              
+    110                                              //Defining the new function and the covergroup inside it
+    111                                              function new(string name = "ALSU_coverage", uvm_component parent = null);
+    112             1                          1         super.new(name,parent);
+    113             1                          1         cov_gp=new();        
+    114                                              endfunction
+    115                                              
+    116                                              function void build_phase(uvm_phase phase);
+    117             1                          1         super.build_phase(phase);
+    118             1                          1         cov_export = new("cov_export",this);
+    119             1                          1         cov_fifo = new("cov_fifo", this);
+    120                                              endfunction
+    121                                              
+    122                                              function void connect_phase(uvm_phase phase);
+    123             1                          1         super.connect_phase(phase);
+    124             1                          1         cov_export.connect(cov_fifo.analysis_export);
+    125                                              endfunction
+    126                                              
+    127                                              task run_phase(uvm_phase phase);
+    128             1                          1         super.run_phase(phase);
+    129             1                          1         forever begin
+    130             1                      10002             cov_fifo.get(item_cov);
+    131                                                      if(item_cov.rst||item_cov.bypass_A||item_cov.bypass_B)
+    132             1                       2315                 cov_gp.stop();
+    133                                                      else begin
+    134             1                       7686                 cov_gp.start();
+    135             1                       7686                 cov_gp.sample();
+
+
+=================================================================================
+=== Instance: /ALSU_monitor_pkg
+=== Design Unit: work.ALSU_monitor_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         1         1    50.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /ALSU_monitor_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_monitor_pkg.sv
+------------------------------------IF Branch------------------------------------
+    45                                     10001     Count coming in to IF
+    45              1                    ***0***                 `uvm_info("run_phase",item_monitor.convert2string(),UVM_HIGH)
+                                           10001     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      25        22         3    88.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /ALSU_monitor_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_monitor_pkg.sv
+    1                                                package ALSU_monitor_pkg;
+    2                                                
+    3                                                import ALSU_sequenceitem_pkg::*;
+    4                                                import uvm_pkg::*;
+    5                                                `include "uvm_macros.svh"
+    6                                                
+    7                                                class ALSU_monitor extends uvm_monitor;
+    8                                                
+    9               1                    ***0***         `uvm_component_utils(ALSU_monitor);
+    9               2                    ***0***     
+    9               3                          2     
+    10                                                   virtual ALSU_if ALSU_monitor_vif;
+    11                                                   MySequenceItem item_monitor;
+    12                                                   uvm_analysis_port #(MySequenceItem) monitor_ap;
+    13                                               
+    14                                               
+    15                                               
+    16                                                   function new(string name = "ALSU_monitor", uvm_component parent = null);
+    17              1                          1             super.new(name , parent);    
+    18                                                   endfunction //new()
+    19                                               
+    20                                                   function void build_phase(uvm_phase phase);
+    21              1                          1             super.build_phase(phase);
+    22              1                          1             monitor_ap = new("monitor_ap",this);
+    23                                                   endfunction
+    24                                               
+    25                                                   task run_phase(uvm_phase phase);
+    26              1                          1             super.run_phase(phase);
+    27              1                          1             forever begin
+    28              1                      10002                 item_monitor = MySequenceItem::type_id::create("item_monitor");
+    29              1                      10002                 @(negedge ALSU_monitor_vif.clk);
+    30              1                      10001                 item_monitor.rst=ALSU_monitor_vif.rst; 
+    31              1                      10001                 item_monitor.cin=ALSU_monitor_vif.cin;
+    32              1                      10001                 item_monitor.red_op_A=ALSU_monitor_vif.red_op_A;
+    33              1                      10001                 item_monitor.red_op_B=ALSU_monitor_vif.red_op_B;
+    34              1                      10001                 item_monitor.bypass_A=ALSU_monitor_vif.bypass_A;
+    35              1                      10001                 item_monitor.bypass_B=ALSU_monitor_vif.bypass_B;
+    36              1                      10001                 item_monitor.direction=ALSU_monitor_vif.direction;
+    37              1                      10001                 item_monitor.serial_in=ALSU_monitor_vif.serial_in;
+    38              1                      10001                 item_monitor.opcode=opcode_e'(ALSU_monitor_vif.opcode);
+    39              1                      10001                 item_monitor.A=ALSU_monitor_vif.A;
+    40              1                      10001                 item_monitor.B=ALSU_monitor_vif.B;
+    41              1                      10001                 item_monitor.out=ALSU_monitor_vif.out;
+    42              1                      10001                 item_monitor.leds=ALSU_monitor_vif.leds;
+    43                                               
+    44              1                      10001                 monitor_ap.write(item_monitor);
+    45              1                    ***0***                 `uvm_info("run_phase",item_monitor.convert2string(),UVM_HIGH)
+
+
+=================================================================================
+=== Instance: /ALSU_config_pkg
+=== Design Unit: work.ALSU_config_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         0        10     0.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /ALSU_config_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_config.sv
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               1                    ***0***             `uvm_object_utils(ALSU_config)    
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               2                    ***0***             `uvm_object_utils(ALSU_config)    
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               3                    ***0***             `uvm_object_utils(ALSU_config)    
+    7               4                    ***0***             `uvm_object_utils(ALSU_config)    
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               5                    ***0***             `uvm_object_utils(ALSU_config)    
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               6                    ***0***             `uvm_object_utils(ALSU_config)    
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         0         2     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /ALSU_config_pkg --
+
+  File ALSU_config.sv
+----------------Focused Condition View-------------------
+Line       7 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       7 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:    ***0***  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      11         1        10     9.09%
+
+================================Statement Details================================
+
+Statement Coverage for instance /ALSU_config_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_config.sv
+    1                                                package ALSU_config_pkg;
+    2                                                    import uvm_pkg::*;
+    3                                                    `include "uvm_macros.svh"
+    4                                                
+    5                                                    class ALSU_config extends uvm_object;
+    6                                                
+    7               1                    ***0***             `uvm_object_utils(ALSU_config)    
+    7               2                    ***0***     
+    7               3                    ***0***     
+    7               4                    ***0***     
+    7               5                    ***0***     
+    7               6                    ***0***     
+    7               7                    ***0***     
+    7               8                    ***0***     
+    7               9                    ***0***     
+    7              10                    ***0***     
+    8                                                
+    9                                                        virtual ALSU_if ALSU_config_vif;
+    10                                               
+    11                                                       function new (string name ="ALSU_config");
+    12              1                          1                 super.new(name);
+
+
+=================================================================================
+=== Instance: /ALSU_driver_pkg
+=== Design Unit: work.ALSU_driver_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         1         1    50.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /ALSU_driver_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_driver.sv
+------------------------------------IF Branch------------------------------------
+    40                                     10001     Count coming in to IF
+    40              1                    ***0***                 `uvm_info("run_phase",item_driver.convert2string_stimulus(),UVM_HIGH); 
+                                           10001     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      22        19         3    86.36%
+
+================================Statement Details================================
+
+Statement Coverage for instance /ALSU_driver_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_driver.sv
+    1                                                package ALSU_driver_pkg;
+    2                                                import ALSU_config_pkg::*;
+    3                                                import ALSU_sequenceitem_pkg::*;
+    4                                                import uvm_pkg::*;
+    5                                                `include "uvm_macros.svh"
+    6                                                
+    7                                                class ALSU_driver extends uvm_driver #(MySequenceItem);
+    8                                                
+    9               1                    ***0***         `uvm_component_utils(ALSU_driver)
+    9               2                    ***0***     
+    9               3                          2     
+    10                                               
+    11                                                   virtual ALSU_if ALSU_driver_vif;
+    12                                                   ALSU_config ALSU_config_obj_driver;
+    13                                                   MySequenceItem item_driver;
+    14                                               
+    15                                                   function new(string name ="ALSU_driver", uvm_component parent= null);
+    16              1                          1             super.new(name,parent);
+    17                                                   endfunction
+    18                                                   
+    19                                                   task run_phase(uvm_phase phase);
+    20              1                          1             super.run_phase(phase);
+    21                                                   
+    22              1                          1             forever begin
+    23              1                      10002                 item_driver = MySequenceItem::type_id::create("item_driver");
+    24              1                      10002                 seq_item_port.get_next_item(item_driver);
+    25                                               
+    26              1                      10001                 ALSU_driver_vif.rst=item_driver.rst; 
+    27              1                      10001                 ALSU_driver_vif.cin=item_driver.cin;
+    28              1                      10001                 ALSU_driver_vif.red_op_A=item_driver.red_op_A;
+    29              1                      10001                 ALSU_driver_vif.red_op_B=item_driver.red_op_B;
+    30              1                      10001                 ALSU_driver_vif.bypass_A=item_driver.bypass_A;
+    31              1                      10001                 ALSU_driver_vif.bypass_B=item_driver.bypass_B;
+    32              1                      10001                 ALSU_driver_vif.direction=item_driver.direction;
+    33              1                      10001                 ALSU_driver_vif.serial_in=item_driver.serial_in;
+    34              1                      10001                 ALSU_driver_vif.opcode=item_driver.opcode;
+    35              1                      10001                 ALSU_driver_vif.A=item_driver.A;
+    36              1                      10001                 ALSU_driver_vif.B=item_driver.B;
+    37                                               
+    38              1                      10001                 @(negedge ALSU_driver_vif.clk);   
+    39              1                      10001                 seq_item_port.item_done();
+    40              1                    ***0***                 `uvm_info("run_phase",item_driver.convert2string_stimulus(),UVM_HIGH); 
+
+
+=================================================================================
+=== Instance: /ALSU_sequencer_pkg
+=== Design Unit: work.ALSU_sequencer_pkg
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       4         2         2    50.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /ALSU_sequencer_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_sequencer_pkg.sv
+    1                                                package ALSU_sequencer_pkg;
+    2                                                
+    3                                                import ALSU_sequenceitem_pkg::*;
+    4                                                import uvm_pkg::*;
+    5                                                `include "uvm_macros.svh"
+    6                                                
+    7                                                class ALSU_sequencer extends uvm_sequencer #(MySequenceItem);
+    8                                                
+    9               1                    ***0***     `uvm_component_utils(ALSU_sequencer);
+    9               2                    ***0***     
+    9               3                          2     
+    10                                               
+    11                                               function new(string name = "ALSU_sequencer",uvm_component parent =null);
+    12              1                          1         super.new(name, parent);
+
+
+=================================================================================
+=== Instance: /ALSU_agent_pkg
+=== Design Unit: work.ALSU_agent_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         1         3    25.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /ALSU_agent_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_agent_pkg.sv
+------------------------------------IF Branch------------------------------------
+    26                                         1     Count coming in to IF
+    26              1                    ***0***         if(!uvm_config_db #(ALSU_config)::get(this,"","CFG",config_agent))
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    27                                   ***0***     Count coming in to IF
+    27              1                    ***0***             `uvm_fatal("build_phase","Unable to get configruation object");
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      14        11         3    78.57%
+
+================================Statement Details================================
+
+Statement Coverage for instance /ALSU_agent_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_agent_pkg.sv
+    1                                                package ALSU_agent_pkg;
+    2                                                import ALSU_sequenceitem_pkg::*;
+    3                                                import ALSU_sequencer_pkg::*;
+    4                                                import ALSU_driver_pkg::*;
+    5                                                import ALSU_monitor_pkg::*;
+    6                                                import ALSU_config_pkg::*;
+    7                                                import uvm_pkg::*;
+    8                                                `include "uvm_macros.svh"
+    9                                                
+    10                                               class ALSU_agent extends uvm_agent;
+    11              1                    ***0***     `uvm_component_utils(ALSU_agent);
+    11              2                    ***0***     
+    11              3                          2     
+    12                                               
+    13                                               ALSU_config config_agent;
+    14                                               ALSU_sequencer sequencer_agent;
+    15                                               ALSU_driver driver_agent;
+    16                                               ALSU_monitor monitor_agent;
+    17                                               
+    18                                               uvm_analysis_port #(MySequenceItem) agent_ap;
+    19                                               
+    20                                               function new(string name = "ALSU_agent",uvm_component parent = null);
+    21              1                          1         super.new(name,parent);
+    22                                               endfunction
+    23                                               
+    24                                               function void build_phase(uvm_phase phase);
+    25              1                          1         super.build_phase(phase);
+    26                                                   if(!uvm_config_db #(ALSU_config)::get(this,"","CFG",config_agent))
+    27              1                    ***0***             `uvm_fatal("build_phase","Unable to get configruation object");
+    28                                               
+    29              1                          1         sequencer_agent=ALSU_sequencer::type_id::create("sequencer_agent",this);
+    30              1                          1         driver_agent=ALSU_driver::type_id::create("driver_agent",this);
+    31              1                          1         monitor_agent=ALSU_monitor::type_id::create("monitor_agent",this);
+    32              1                          1         agent_ap= new("agent_ap",this);
+    33                                               endfunction
+    34                                               
+    35                                               function void connect_phase(uvm_phase phase);
+    36              1                          1         driver_agent.ALSU_driver_vif =  config_agent.ALSU_config_vif;
+    37              1                          1         monitor_agent.ALSU_monitor_vif = config_agent.ALSU_config_vif;
+    38              1                          1         driver_agent.seq_item_port.connect(sequencer_agent.seq_item_export);
+    39              1                          1         monitor_agent.monitor_ap.connect(agent_ap);
+
+
+=================================================================================
+=== Instance: /ALSU_env_pkg
+=== Design Unit: work.ALSU_env_pkg
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       9         7         2    77.77%
+
+================================Statement Details================================
+
+Statement Coverage for instance /ALSU_env_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_env.sv
+    1                                                package ALSU_env_pkg;
+    2                                                import ALSU_agent_pkg::*;
+    3                                                import ALSU_coverage_pkg::*;
+    4                                                import uvm_pkg::*;
+    5                                                `include "uvm_macros.svh"
+    6                                                class ALSU_env extends uvm_env;
+    7               1                    ***0***     `uvm_component_utils(ALSU_env)
+    7               2                    ***0***     
+    7               3                          2     
+    8                                                
+    9                                                ALSU_agent agent_env;
+    10                                               ALSU_coverage coverage_env;
+    11                                               
+    12                                               function new(string name= "ALSU_env",uvm_component parent =null);
+    13              1                          1         super.new(name,parent);
+    14                                               endfunction
+    15                                               
+    16                                               function void build_phase(uvm_phase phase);
+    17              1                          1         super.build_phase(phase);
+    18              1                          1         agent_env = ALSU_agent::type_id::create("agent_env",this);
+    19              1                          1         coverage_env = ALSU_coverage::type_id::create("coverage_env",this);
+    20                                                   
+    21                                               endfunction: build_phase
+    22                                               
+    23                                               function void connect_phase(uvm_phase phase);
+    24              1                          1         super.connect_phase(phase);
+    25              1                          1         agent_env.agent_ap.connect(coverage_env.cov_export);
+
+
+=================================================================================
+=== Instance: /ALSU_test_pkg
+=== Design Unit: work.ALSU_test_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         8         3         5    37.50%
+
+================================Branch Details================================
+
+Branch Coverage for instance /ALSU_test_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_test.sv
+------------------------------------IF Branch------------------------------------
+    26                                         1     Count coming in to IF
+    26              1                    ***0***             if(!uvm_config_db #(virtual ALSU_if)::get(this,"","ALSU_IF",ALSU_config_obj_test.ALSU_config_vif))
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    27                                   ***0***     Count coming in to IF
+    27              1                    ***0***                 `uvm_fatal("build_phase","Test - Unable to get the virtual interface of the ALSU from the uvm_config_db");
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    34                                         1     Count coming in to IF
+    34              1                          1             `uvm_info("run_phase","Stimulus Generation Started",UVM_LOW)
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    36                                         1     Count coming in to IF
+    36              1                          1             `uvm_info("run_phase","Stimulus Generation Ended",UVM_LOW)
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      16        13         3    81.25%
+
+================================Statement Details================================
+
+Statement Coverage for instance /ALSU_test_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_test.sv
+    1                                                package ALSU_test_pkg;
+    2                                                import ALSU_env_pkg::*;
+    3                                                import ALSU_config_pkg::*;
+    4                                                import ALSU_sequence_pkg::*;
+    5                                                import uvm_pkg::*;
+    6                                                `include "uvm_macros.svh"
+    7                                                class ALSU_test extends uvm_test;
+    8                                                
+    9               1                    ***0***         `uvm_component_utils(ALSU_test)
+    9               2                    ***0***     
+    9               3                          4     
+    10                                               
+    11                                                   virtual ALSU_if ALSU_test_vif;
+    12                                                   ALSU_env env;
+    13                                                   ALSU_config ALSU_config_obj_test;
+    14                                                   ALSU_sequence ALSU_test_seq;
+    15                                               
+    16                                                   function new(string name = "ALSU_test",uvm_component parent = null);
+    17              1                          1             super.new(name,parent);
+    18                                                   endfunction
+    19                                               
+    20                                                   function void build_phase(uvm_phase phase);
+    21              1                          1             super.build_phase(phase);
+    22              1                          1             ALSU_config_obj_test = ALSU_config::type_id::create("ALSU_config_obj_test");
+    23              1                          1             env = ALSU_env::type_id::create("env",this);
+    24              1                          1             ALSU_test_seq = ALSU_sequence::type_id::create("ALSU_test_seq",this);
+    25                                               
+    26                                                       if(!uvm_config_db #(virtual ALSU_if)::get(this,"","ALSU_IF",ALSU_config_obj_test.ALSU_config_vif))
+    27              1                    ***0***                 `uvm_fatal("build_phase","Test - Unable to get the virtual interface of the ALSU from the uvm_config_db");
+    28              1                          1             uvm_config_db #(ALSU_config)::set(this,"*","CFG",ALSU_config_obj_test);
+    29                                                   endfunction
+    30                                               
+    31                                                   task run_phase(uvm_phase phase);
+    32              1                          1             super.run_phase(phase);
+    33              1                          1             phase.raise_objection(this);
+    34              1                          1             `uvm_info("run_phase","Stimulus Generation Started",UVM_LOW)
+    35              1                          1             ALSU_test_seq.start(env.agent_env.sequencer_agent);
+    36              1                          1             `uvm_info("run_phase","Stimulus Generation Ended",UVM_LOW)
+    37              1                          1             phase.drop_objection(this);
+
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /ALSU_coverage_pkg/ALSU_coverage/cov_gp         100.00%        100          -    Covered              
+    covered/total bins:                                    40         40          -                      
+    missing/total bins:                                     0         40          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint A_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint B_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint ALU_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint A_extremes                               0.00%        100          -    ZERO                 
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint B_extremes                               0.00%        100          -    ZERO                 
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cross_cin                                0.00%        100          -    ZERO                 
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cross_serial_in                          0.00%        100          -    ZERO                 
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cross_redA                               0.00%        100          -    ZERO                 
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cross_redB                               0.00%        100          -    ZERO                 
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cross_direction                          0.00%        100          -    ZERO                 
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross A_B_ADD_MUL                                 100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross CIN_ADD_cross                               100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross shifting_cross                              100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross shifting_rotating_cross                     100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross OR_XOR_redA_cross                           100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross OR_XOR_redB_cross                           100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross INVALID_red_cross                           100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/ALSU_coverage_pkg::ALSU_coverage::cov_gp  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    40         40          -                      
+    missing/total bins:                                     0         40          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint A_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin A_data_0                                     1321          1          -    Covered              
+        bin A_data_max                                   1227          1          -    Covered              
+        bin A_data_min                                   1250          1          -    Covered              
+        bin A_data_walkingones[-4]                        453          1          -    Covered              
+        bin A_data_walkingones[1]                         223          1          -    Covered              
+        bin A_data_walkingones[2]                         231          1          -    Covered              
+        default bin A_data_default                       2336                     -    Occurred             
+    Coverpoint B_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin B_data_0                                     1586          1          -    Covered              
+        bin B_data_max                                   1124          1          -    Covered              
+        bin B_data_min                                   1187          1          -    Covered              
+        bin B_data_walkingones[-4]                        222          1          -    Covered              
+        bin B_data_walkingones[1]                         139          1          -    Covered              
+        bin B_data_walkingones[2]                         104          1          -    Covered              
+        default bin B_data_default                       2304                     -    Occurred             
+    Coverpoint ALU_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Bins_shift[SHIFT]                            1064          1          -    Covered              
+        bin Bins_shift[ROTATE]                           1095          1          -    Covered              
+        bin Bins_arith[ADD]                              1111          1          -    Covered              
+        bin Bins_arith[MUL]                              1140          1          -    Covered              
+        bin Bins_bitwise[OR]                             1066          1          -    Covered              
+        bin Bins_bitwise[XOR]                            1107          1          -    Covered              
+        bin Bins_invalid                                 1103          1          -    Covered              
+        bin Bins_trans                                    607          1          -    Covered              
+    Coverpoint A_extremes [1]                         100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin A_extremes_VALUES                            3798          1          -    Covered              
+    Coverpoint B_extremes [1]                         100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin B_extremes_VALUES                            3897          1          -    Covered              
+    Coverpoint cross_cin [1]                          100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin C_in                                         7686          1          -    Covered              
+    Coverpoint cross_serial_in [1]                    100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin serialin                                     7686          1          -    Covered              
+    Coverpoint cross_redA [1]                         100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin redA                                         7686          1          -    Covered              
+    Coverpoint cross_redB [1]                         100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin redB                                         7686          1          -    Covered              
+    Coverpoint cross_direction [1]                    100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin crossdir                                     7686          1          -    Covered              
+    Cross A_B_ADD_MUL                                 100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin Extreme_Add_mul                          1252          1          -    Covered              
+            bin <A_extremes_VALUES,B_extremes_VALUES,Bins_trans> 
+                                                          165          1          -    Covered              
+            bin <A_extremes_VALUES,B_extremes_VALUES,Bins_invalid> 
+                                                          156          1          -    Covered              
+            bin <A_extremes_VALUES,B_extremes_VALUES,Bins_bitwise[XOR]> 
+                                                          193          1          -    Covered              
+            bin <A_extremes_VALUES,B_extremes_VALUES,Bins_bitwise[OR]> 
+                                                          164          1          -    Covered              
+            bin <A_extremes_VALUES,B_extremes_VALUES,Bins_shift[ROTATE]> 
+                                                          160          1          -    Covered              
+            bin <A_extremes_VALUES,B_extremes_VALUES,Bins_shift[SHIFT]> 
+                                                          147          1          -    Covered              
+    Cross CIN_ADD_cross                               100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin CIN_ADD                                  1558          1          -    Covered              
+    Cross shifting_cross                              100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin serial_in_shift                          1522          1          -    Covered              
+    Cross shifting_rotating_cross                     100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin serial_in_shift                          2159          1          -    Covered              
+    Cross OR_XOR_redA_cross                           100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin OR_XOR_redA                               226          1          -    Covered              
+    Cross OR_XOR_redB_cross                           100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin OR_XOR_redB                                70          1          -    Covered              
+    Cross INVALID_red_cross                           100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin invalid_red                              5653          1          -    Covered              
+
+ [1] - Does not contribute coverage as weight is 0
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/rst_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(120)
+                                                                               485 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/bypass_A_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(121)
+                                                                               844 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/bypass_B_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(122)
+                                                                               670 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/red_or_A_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(123)
+                                                                                56 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/red_or_B_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(124)
+                                                                                17 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/or_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(125)
+                                                                               143 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/red_xor_A_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(126)
+                                                                                57 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/red_xor_B_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(127)
+                                                                                23 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/xor_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(128)
+                                                                               177 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/Add_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(129)
+                                                                                65 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/mul_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(130)
+                                                                                61 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/shift_left_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(131)
+                                                                                72 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/shift_right_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(132)
+                                                                               109 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/rotate_left_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(133)
+                                                                                98 Covered   
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/rotate_right_p_coverage 
+                                         ALSU_assertions Verilog  SVA  ALSU_assertions.sv(134)
+                                                                                94 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 15
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/rst_p_assertion
+                     ALSU_assertions.sv(104)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/bypass_A_p_assertion
+                     ALSU_assertions.sv(105)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/bypass_B_p_assertion
+                     ALSU_assertions.sv(106)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/red_or_A_p_assertion
+                     ALSU_assertions.sv(107)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/red_or_B_p_assertion
+                     ALSU_assertions.sv(108)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/or_p_assertion
+                     ALSU_assertions.sv(109)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/red_xor_A_p_assertion
+                     ALSU_assertions.sv(110)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/red_xor_B_p_assertion
+                     ALSU_assertions.sv(111)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/xor_p_assertion
+                     ALSU_assertions.sv(112)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/Add_p_assertion
+                     ALSU_assertions.sv(113)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/mul_p_assertion
+                     ALSU_assertions.sv(114)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/shift_left_p_assertion
+                     ALSU_assertions.sv(115)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/shift_right_p_assertion
+                     ALSU_assertions.sv(116)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/rotate_left_p_assertion
+                     ALSU_assertions.sv(117)            0          1
+/ALSU_top/ALSU_DUT/ALSU_assertions_inst/rotate_right_p_assertion
+                     ALSU_assertions.sv(118)            0          1
+/ALSU_sequence_pkg/ALSU_sequence/body/#ublk#37877255#28/immed__31
+                     ALSU_sequence_pkg.sv(31)           0          1
+
+Total Coverage By Instance (filtered view): 86.17%
+
